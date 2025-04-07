@@ -3,7 +3,7 @@ package `5kyu`.movingzerostotheend
 
 def moveZeroes(lst: List[Int]): List[Int] = lst.sortBy(_ == 0)
 
-class MoveZeroesSpec extends munit.FunSuite:
+class MoveZeroesSuite extends munit.FunSuite:
     test("moveZeroes should pass basic tests"):
         List(
           (List(1, 2, 0, 1, 0, 1, 0, 3, 0, 1), List(1, 2, 1, 1, 3, 1, 0, 0, 0, 0)),

@@ -19,7 +19,7 @@ object Kata:
 
         go(s.toList, Nil)
 
-class ValidBracesSpec extends munit.FunSuite:
+class ValidBracesSuite extends munit.FunSuite:
     test("validBraces should pass basic tests"):
         List[(String, Boolean)](
           ("()", true),

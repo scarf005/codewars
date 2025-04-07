@@ -16,7 +16,7 @@ def goodVsEvil(good: String, evil: String): String =
 
     s"Battle Result: $result"
 
-class GoodVsEvilSpec extends munit.FunSuite:
+class GoodVsEvilSuite extends munit.FunSuite:
     test("goodVsEvil should pass basic tests"):
         Seq(
           ("1 1 1 1 1 1", "1 1 1 1 1 1 1", "Battle Result: Evil eradicates all trace of Good"),

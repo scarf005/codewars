@@ -6,7 +6,7 @@ import munit.FunSuite
 def makeReadable(s: Int): String =
     f"${s / 3600}%02d:${s / 60 % 60}%02d:${s % 60}%02d"
 
-class TimeSpec extends FunSuite:
+class TimeSuite extends FunSuite:
     test("makeReadable should pass basic tests"):
         assertEquals(makeReadable(0), "00:00:00")
         assertEquals(makeReadable(59), "00:00:59")
